@@ -54,11 +54,9 @@
 
 //Task 4
 
-// var nm = prompt("Enter your name:");
-// var words = nm.split("");
-// words[0] = words[0].toUpperCase();
-// var capitalized = words.join("");
-// document.write("<h1><b>"+capitalized+"</b>)</h1>");
+// var naam = prompt("Enter your name: ");
+// var capital_naam = naam.charAt(0).toUpperCase() + naam.slice(1);
+// document.write("<center><h1><b>"+capital_naam+"</b></h1></center>");
 
 //Task 5
 
@@ -109,8 +107,9 @@
 
 //Task 8
 
-var players = ["Player 1", "Player 2", "Player 3", "Player 4", "Player 5", "Player 6", "Player 7", "Player 8", "Player 9", "Player 10", "Player 11", "Player 12", "Player 13", "Player 14", "Player 15"];
+var players = ["Babar Azam", "Shaheen", "Shadab Khan", "Imad Wasim", "Mohammad Amir", "Fakhar Zaman", "Sarfraz Ahmed", "Shoaib Malik", "Hasan Ali", "Asif Ali", "Wahab Riaz", "Mohammad Hafeez", "Mohammad Hafeez", "Zaid"];
 var team = players.slice(1 , 12);
 document.write("Final team for tomorrow's match against India: ");
-document.write("<br>"+ team);
+document.write("<br>"+ "" +team);
+
 
