@@ -110,6 +110,6 @@
 var players = ["1.Babar Azam", "2.Shaheen", "3.Shadab Khan", "4.Imad Wasim", "5.Mohammad Amir", "6.Fakhar Zaman", "7.Sarfraz Ahmed", "8.Shoaib Malik", "9.Hasan Ali", "10.Asif Ali", "11.Wahab Riaz", "12.Mohammad Hafeez", "13.Mohammad Hafeez", "14.Zaid"];
 var team = players.slice(1 , 12);
 document.write("Final team for tomorrow's match against India: ");
-document.write("<br>"+ "" +team);
+document.write("<br>"+ " " +team);
 
 
